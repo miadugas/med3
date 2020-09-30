@@ -1,6 +1,6 @@
 module.exports = {
 
-    author: "@konstantinmuenster",
+    author: "@codechickmia",
     siteTitle: "Mia Dugas | Portfolio",
     siteShortTitle: "md.", // Used as logo text in header, footer, and splash screen
     siteDescription: "A modern one-page portfolio with a clean yet expressive design.",
@@ -12,36 +12,34 @@ module.exports = {
 
     // You can create your own Medium feed with this rss to json converter: https://rss2json.com/
     // To access your Medium RSS feed, just replace this url with your username: https://medium.com/feed/@{yourname}
-    mediumRssFeed: "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40konstantin.muenster",
-    shownArticles: 3,
-    
+    // mediumRssFeed: "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40konstantin.muenster",
+    // shownArticles: 3,
+
     // There are icons available for the following platforms: 
     // Medium, GitHub, LinkedIn, XING, Behance
-    socialMedia: [
-        {
+    socialMedia: [{
             name: "Linkedin",
-            url: "https://www.linkedin.com/in/konstantin-muenster/"
+            url: "https://www.linkedin.com/in/miadugas"
         },
-        
+
         {
             name: "Github",
-            url: "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal"
+            url: "https://github.com/miadugas"
         },
         {
             name: "My Resume",
-            url: "https://www.behance.net/konstanmnster"
+            url: "https://drive.google.com/file/d/1mqrx6TpaS3BXr9zpyEKLlfWd2hk2EYJ6/view?usp=sharing"
         },
     ],
-  
+
     navLinks: {
-        menu: [
-            {
-                name: "Articles",
-                url: "/#articles",
-            },
-            {
+        menu: [{
                 name: "About Me",
                 url: "/#about",
+            },
+            {
+                name: "Skills",
+                url: "/#interests",
             },
             {
                 name: "Projects",
@@ -54,8 +52,7 @@ module.exports = {
         }
     },
 
-    footerLinks: [
-        {
+    footerLinks: [{
             name: "Privacy",
             url: "/privacy"
         },
