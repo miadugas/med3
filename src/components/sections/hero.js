@@ -35,14 +35,7 @@ const StyledContentWrapper = styled(ContentWrapper)`
       justify-content: flex-start;
       align-items: center;
     }
-    .emoji {
-      margin-left: 0.75rem;
-      width: 2.2rem;
-      height: 2.2rem;
-      @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
-        margin-left: 1rem;
-        width: 3rem;
-        height: 3rem;
+    
       }
     }
     .title {
