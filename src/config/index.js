@@ -27,6 +27,10 @@ module.exports = {
             url: "https://github.com/miadugas"
         },
         {
+            name: "Dribbble",
+            url: "https://dribbble.com/MiaInBatcountry"
+        },
+        {
             name: "My Resume",
             url: "https://drive.google.com/file/d/1mqrx6TpaS3BXr9zpyEKLlfWd2hk2EYJ6/view?usp=sharing"
         },

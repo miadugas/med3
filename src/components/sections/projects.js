@@ -334,7 +334,7 @@ const Projects = ({ content }) => {
           })}
         </div>
       </StyledContentWrapper>
-      {sectionDetails.frontmatter.buttonVisible === "true" && (
+      {sectionDetails.frontmatter.buttonVisible === "false" && (
         <motion.a
         ref={bRef}
         variants={bVariants}
@@ -345,9 +345,9 @@ const Projects = ({ content }) => {
         rel="nofollow noopener noreferrer"
         aria-label="External Link"
       >
-        <Button type="button" textAlign="center" color="primary" center>
+        {/* <Button type="button" textAlign="center" color="primary" center>
           {sectionDetails.frontmatter.buttonText}
-        </Button>
+        </Button> */}
       </motion.a>
       )}
     </StyledSection>
